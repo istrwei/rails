@@ -1,0 +1,258 @@
+code {
+    padding: 0;
+    color: #000;
+    background: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a.anchor{
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
+}
+
+/* Header */
+
+.navbar-book {
+    background-color: rgba(255,255,255,.9);
+    border-color: #ccc;
+}
+
+.collapsed-purchase-btn {
+    position: relative;
+    float: right;
+    margin: 10px 10px 8px 0;
+}
+
+/* Home */
+
+.summary {
+    background: url("images/blur.jpg") no-repeat 50% 0 fixed;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.cover {
+    text-align: right;
+}
+.cover img {
+
+}
+
+.info {
+    position: relative;
+    padding-top: 24px;
+}
+
+.title {
+    margin: 0;
+}
+
+.subtitle {
+    margin: 10px 0 30px;
+    font-size: 20px;
+}
+
+.edition {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.actions {
+    margin-top: 30px;
+}
+
+.actions a {
+    margin-right: 20px;
+}
+
+.news {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.news a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.news a:hover {
+    color: #444;
+}
+
+.meta {
+    background: #eee;
+    padding: 20px 0;
+}
+
+.meta .box {
+    padding-left: 35px;
+}
+
+.box i {
+    float: left;
+    margin-left: -35px;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.parent {
+    position: relative;
+}
+
+.section-title {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    background: #eee;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.purchase {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.purchase .row,
+.related .row {
+    padding: 20px 0;
+}
+
+.bigger {
+    font-size: 16px;
+    font-weight: 900;
+    padding: 6px 0;
+}
+
+.notes {
+    color: #666;
+}
+
+.faq {
+    padding: 20px 0;
+    background-color: #eee;
+}
+
+.faq .section-title {
+    background: #fff;
+}
+
+.faq h3 {
+    margin: 20px 0 10px 0;
+    font-size: 16px;
+}
+
+.related {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.related .section-title {
+    background: #eee;
+}
+
+.related h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.related img {
+    border: 1px solid #ccc;
+}
+
+/* Content */
+
+.content {
+    padding: 90px 0 30px;
+}
+
+/* Blog */
+
+.blog .gray {
+    font-size: 16px;
+    color: #999;
+    margin: 0;
+}
+
+.blog .post-header {
+    margin-bottom: 30px;
+}
+
+.blog .post-header h1 {
+    font-size: 30px;
+}
+
+.blog a.post-link {
+    color: #000;
+}
+
+.blog .post-meta {
+    color: #999;
+}
+
+.blog .recents {
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.blog .posts {
+    margin: 15px 0;
+}
+
+.blog .recents .post-date {
+    color: #999;
+    font-size: 90%;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.blog .recents a.post-link {
+    text-decoration: underline;
+}
+
+.blog .recents a.post-link:hover {
+    color: #666;
+}
+
+.blog .rss-subscribe {
+    text-align: right;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.sns {
+    font-size: 20px;
+}
+
+
+@media (max-width: 767px) {
+    .cover {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        margin-bottom: 10px;
+    }
+
+    .section-title {
+        left: 15px;
+    }
+}
