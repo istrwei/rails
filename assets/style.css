@@ -124,6 +124,10 @@ a.anchor{
     padding: 20px 0;
 }
 
+#purchase-older {
+    display: none;
+}
+
 .bigger {
     font-size: 16px;
     font-weight: 900;

@@ -11,6 +11,7 @@
     <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/js/dropdown.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/js/collapse.min.js"></script>
+    <script src="assets/global.js"></script>
     <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/style.css"/>
@@ -32,7 +33,7 @@
                 <li class="active"><a href="http://railstutorial-china.org/" title="首页">首页</a></li>
                 <li><a href="http://railstutorial-china.org/read/" title="在线阅读">阅读</a></li>
                 <li><a href="http://railstutorial-china.org/blog/" title="最新消息">博客</a></li>
-                <li><a href="https://selfstore.io/products/2/topics" title="论坛">论坛</a></li>
+                <li><a href="https://selfstore.io/products/189/topics" title="论坛">论坛</a></li>
                 <li class="hidden-xs"><div><a href="#purchase" class="btn btn-warning navbar-btn" title="购买电子书">购买</a></div></li>
             </ul>
         </nav>
@@ -49,12 +50,12 @@
                 <div class="info">
                     <h1 class="title">Ruby on Rails 教程</h1>
                     <h2 class="subtitle">通过 Rails 学习 Web 开发</h2>
-                    <p class="edition">原书第 2 版</p>
+                    <p class="edition">原书第 3 版</p>
                     <div class="description">
-                        <p>这本书讲解如何使用 Ruby on Rails 框架开发应用，以及如何把应用部署到生成环境。书中开发了一个完整的社交应用（类似 Twitter），并且一直践行“测试开发驱动”理念。读完本书后你将掌握如何使用 Rails 从零开始开发任何类型的应用。这本书是《Ruby on Rails Tutorial， Second Edition》的简体中文版，由作者授权翻译和销售。</p>
+                        <p>这本书讲解如何使用 Ruby on Rails 框架开发应用，以及如何把应用部署到生成环境。本书使用 Rails 默认的开发工具栈开发了一个完整的社交应用（类似 Twitter）。读完本书后你将掌握如何使用 Rails 从零开始开发任何类型的应用。这本书是《Ruby on Rails Tutorial, Third Edition》的简体中文版，由作者授权翻译和销售。</p>
                     </div>
                     <div class="actions">
-                        <a href="https://selfstore.io/products/2" class="btn btn-warning" title="购买电子书">购买电子书</a>
+                        <a href="#purchase" class="btn btn-warning" title="购买电子书">购买电子书</a>
                         <!--a href="" class="btn btn-default">样章试读</a-->
                     </div>
                     <div class="news">
@@ -109,17 +110,11 @@
                 <img src="assets/images/selfstore-logo.png" alt="SelfStore" title="SelfStore" />
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-9">
-                <p class="bigger">Ruby on Rails 教程（原书第 2 版）</p>
+                <p class="bigger">Ruby on Rails 教程（原书第 3 版）</p>
                 <p class="notes">包含 PDF，ePub，mobi 三种格式</p>
-                <p>每种格式可也可单独购买：</p>
-                <ul>
-                    <li><a href="https://selfstore.io/products/7" title="购买 PDF 格式">PDF 格式</a>
-                    <li><a href="https://selfstore.io/products/6" title="购买 ePub 格式">ePub 格式</a>
-                    <li><a href="https://selfstore.io/products/68" title="购买 mobi 格式">mobi 格式</a>
-                </ul>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
-                <p><a href="https://selfstore.io/products/2" class="btn btn-warning" title="到 SelfStore 购买电子书">购买</a></p>
+                <p><a href="https://selfstore.io/products/189" class="btn btn-warning" title="到 SelfStore 购买电子书">购买</a></p>
                 <p class="payments"><img src="assets/images/alipay.png" alt="支付宝" title="支付宝" /></p>
             </div>
         </div>
@@ -129,26 +124,64 @@
                 <img src="assets/images/sellfy-logo.png" alt="Sellfy" title="Sellfy" />
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-9">
-                <p class="bigger">Ruby on Rails 教程（原书第 2 版）</p>
+                <p class="bigger">Ruby on Rails 教程（原书第 3 版）</p>
                 <p class="notes">包含 PDF，ePub，mobi 三种格式</p>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
-                <p><a href="https://sellfy.com/p/qwyU/" class="btn btn-warning"  title="到 Sellfy 购买电子书">购买</a></p>
+                <p><a href="https://sellfy.com/p/Lw8D" class="btn btn-warning"  title="到 Sellfy 购买电子书">购买</a></p>
                 <p class="payments"><img src="assets/images/paypal.png" alt="PayPal" title="PayPal" /></p>
             </div>
         </div>
 
-        <div id="ituring" class="row">
-            <div class="col-lg-offset-3 col-lg-2 col-md-offset-2 col-md-2 col-sm-3 hidden-xs">
-                <img src="assets/images/ituring-logo.png" alt="图灵社区" title="图灵社区" />
+        <div class="text-center"><a id="older" class="btn btn-default" href="#">购买第 2 版？</a></div>
+
+        <div id="purchase-older">
+            <div id="selfstore" class="row">
+                <div class="col-lg-offset-3 col-lg-2 col-md-offset-2 col-md-2 col-sm-3 hidden-xs">
+                    <img src="assets/images/selfstore-logo.png" alt="SelfStore" title="SelfStore" />
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-9">
+                    <p class="bigger">Ruby on Rails 教程（原书第 2 版）</p>
+                    <p class="notes">包含 PDF，ePub，mobi 三种格式</p>
+                    <p>每种格式可也可单独购买：</p>
+                    <ul>
+                        <li><a href="https://selfstore.io/products/7" title="购买 PDF 格式">PDF 格式</a>
+                        <li><a href="https://selfstore.io/products/6" title="购买 ePub 格式">ePub 格式</a>
+                        <li><a href="https://selfstore.io/products/68" title="购买 mobi 格式">mobi 格式</a>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
+                    <p><a href="https://selfstore.io/products/2" class="btn btn-warning" title="到 SelfStore 购买电子书">购买</a></p>
+                    <p class="payments"><img src="assets/images/alipay.png" alt="支付宝" title="支付宝" /></p>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-9">
-                <p class="bigger">Ruby on Rails 教程（原书第 2 版）</p>
-                <p class="notes">包含 PDF，mobi 两种格式</p>
+
+            <div id="sellfy" class="row">
+                <div class="col-lg-offset-3 col-lg-2 col-md-offset-2 col-md-2 col-sm-3 hidden-xs">
+                    <img src="assets/images/sellfy-logo.png" alt="Sellfy" title="Sellfy" />
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-9">
+                    <p class="bigger">Ruby on Rails 教程（原书第 2 版）</p>
+                    <p class="notes">包含 PDF，ePub，mobi 三种格式</p>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
+                    <p><a href="https://sellfy.com/p/qwyU/" class="btn btn-warning"  title="到 Sellfy 购买电子书">购买</a></p>
+                    <p class="payments"><img src="assets/images/paypal.png" alt="PayPal" title="PayPal" /></p>
+                </div>
             </div>
-            <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
-                <p><a href="http://www.ituring.com.cn/book/1333" class="btn btn-warning"  title="到图灵社区购买电子书">购买</a></p>
-                <p class="payments"><img src="assets/images/alipay.png" alt="支付宝" title="支付宝" /></p>
+
+            <div id="ituring" class="row">
+                <div class="col-lg-offset-3 col-lg-2 col-md-offset-2 col-md-2 col-sm-3 hidden-xs">
+                    <img src="assets/images/ituring-logo.png" alt="图灵社区" title="图灵社区" />
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-9">
+                    <p class="bigger">Ruby on Rails 教程（原书第 2 版）</p>
+                    <p class="notes">包含 PDF，mobi 两种格式</p>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
+                    <p><a href="http://www.ituring.com.cn/book/1333" class="btn btn-warning"  title="到图灵社区购买电子书">购买</a></p>
+                    <p class="payments"><img src="assets/images/alipay.png" alt="支付宝" title="支付宝" /></p>
+                </div>
             </div>
         </div>
     </div>
@@ -162,16 +195,16 @@
         <div class="row">
             <div class="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <h3>这本书支持 Rails 最新版吗？</h3>
-                <p>目前这本书支持 Rails 4.0（支持 Rails 4.2 的原书第 3 版正在翻译中）。如果 Rails 有升级，这本书也会相应升级。</p>
+                <p>目前这本书支持 Rails 4.2。如果 Rails 有升级，本书会随英文原书一起升级。</p>
 
                 <h3>购买后会有更新吗？如何下载更新后的电子书呢？</h3>
                 <p>只要英文版有更新，中文版就会在最短的时间内跟进。而且，我自己有时也会修正翻译的错误。如果有更新，你会收到电子邮件提醒。在你收到的邮件中有下载方式说明。</p>
 
                 <h3>在阅读的过程中遇到问题无法解决怎么办？</h3>
-                <p>如果你遇到的是 Rails 相关的问题，可以到 <a href="https://ruby-china.org/topics" title="Ruby China 社区">Ruby China 社区</a>寻找帮助。也可以到本书的<a href="https://selfstore.io/products/2/topics" title="论坛">论坛</a>中发帖，我会尽量帮助你。</p>
+                <p>如果你遇到的是 Rails 相关的问题，可以到 <a href="https://ruby-china.org/topics" title="Ruby China 社区">Ruby China 社区</a>寻找帮助。也可以到本书的<a href="https://selfstore.io/products/189/topics" title="论坛">论坛</a>中发帖，我会尽量帮助你。</p>
 
                 <h3>我可以把电子书分享给别人吗？</h3>
-                <p>本书没有 DRM 限制，只是为了方便你在不同的设备中阅读。请尊重作者和译者的劳动成果，不要把电子书分享给别人。但是你可以分享给你的家人，共同学习共同进步。</p>
+                <p>本书没有 DRM 限制，是为了方便你在不同的设备中阅读。请尊重作者和译者的劳动成果，不要把电子书分享给别人。但是你可以分享给你的家人，共同学习共同进步。</p>
 
                 <h3>怎么联系你呢？</h3>
                 <p>你可以在 <a href="https://twitter.com/andor_chen" title="安道的 Twitter">Twitter</a> 或<a href="http://weibo.com/andor27" title="安道的微博">微博</a>上和我联系，也可以给我发<a href="mailto:andorchen.27@gmail.com" title="安道的电子邮件">电子邮件</a>。</p>
