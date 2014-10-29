@@ -8,13 +8,21 @@
     <meta name="description" content="最好的 Ruby on Rails 入门教程"/>
     <meta name="keywords" content="ruby, rails, ,ror, tutorial, 教程"/>
     <meta name="author" content="安道"/>
-    <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/js/dropdown.min.js"></script>
-    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/js/collapse.min.js"></script>
-    <script src="assets/global.js"></script>
-    <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/style.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/js/dropdown.min.js"></script>
+    <script type="text/javascript" src="http://cdn.staticfile.org/twitter-bootstrap/3.2.0/js/collapse.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#older').click(function(){
+                $('#purchase-older').toggle();
+                return false;
+            });
+        });
+
+    </script>
 </head>
 <body>
 
