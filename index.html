@@ -122,7 +122,7 @@
                 <p class="notes">包含 PDF，ePub，mobi 三种格式</p>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
-                <p><a href="https://selfstore.io/products/189" class="btn btn-warning" title="到 SelfStore 购买电子书">购买</a></p>
+                <p><a href="https://selfstore.io/products/189" id="purchase-via-selfstore" class="btn btn-warning" title="到 SelfStore 购买电子书">购买</a></p>
                 <p class="payments"><img src="assets/images/alipay.png" alt="支付宝" title="支付宝" /></p>
             </div>
         </div>
@@ -136,7 +136,7 @@
                 <p class="notes">包含 PDF，ePub，mobi 三种格式</p>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
-                <p><a href="https://sellfy.com/p/Lw8D" class="btn btn-warning"  title="到 Sellfy 购买电子书">购买</a></p>
+                <p><a href="https://sellfy.com/p/Lw8D" class="btn btn-warning" id="purchase-via-sellfy" title="到 Sellfy 购买电子书">购买</a></p>
                 <p class="payments"><img src="assets/images/paypal.png" alt="PayPal" title="PayPal" /></p>
             </div>
         </div>
@@ -295,6 +295,12 @@
 
   ga('create', 'UA-56255794-1', 'auto');
   ga('send', 'pageview');
+  $('#purchase-via-selfstore').on('click',function(){
+    ga('send', 'event', 'button', 'click', 'view selfstore page');
+  });
+  $('#purchase-via-sellfy').on('click',function(){
+    ga('send', 'event', 'button', 'click', 'view sellfy page');
+  });
 
 </script>
 
