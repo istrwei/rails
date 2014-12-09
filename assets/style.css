@@ -138,13 +138,33 @@ a.anchor{
     color: #666;
 }
 
-.faq {
+.testimonials {
     padding: 20px 0;
     background-color: #eee;
 }
 
-.faq .section-title {
+.testimonials .section-title {
     background: #fff;
+}
+
+.comment {
+    margin-top: 30px;
+}
+
+.comment img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.faq {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.faq .section-title {
+    background: #eee;
 }
 
 .faq h3 {
@@ -154,11 +174,11 @@ a.anchor{
 
 .related {
     padding: 20px 0;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 .related .section-title {
-    background: #eee;
+    background: #fff;
 }
 
 .related h3 {
