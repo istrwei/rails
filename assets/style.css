@@ -31,7 +31,7 @@ a.anchor{
 /* Home */
 
 .summary {
-    background: url("http://andorpublic.qiniudn.com/blur.jpg") no-repeat 50% 0 fixed;
+    background: #ced1dd url("http://andorpublic.qiniudn.com/blur.jpg") no-repeat 50% 0 fixed;
     padding-top: 90px;
     padding-bottom: 30px;
 }
