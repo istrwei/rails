@@ -1,0 +1,5 @@
+{% if site.baseurl == '/jekyll-china' %}{% assign is_local = true %}{% endif %}
+
+{% if page.url == '/' %}{% assign is_home = true %}{% endif %}
+
+{% if page.blog_page %}{% assign is_blog = true %}{% endif %}

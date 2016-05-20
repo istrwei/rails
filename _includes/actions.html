@@ -1,0 +1,22 @@
+{% if include.wrapper %}
+<section class="row text-xs-center">
+{% endif %}
+
+<div class="actions">
+    <div class="dropdown">
+        <button type="button" class="btn btn-lg btn-danger dropdown-toggle" id="{{ include.button_id }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-basket"></i>购买电子书</button>
+        <div class="dropdown-menu" aria-labelledby="{{ include.button_id }}">
+            <a class="dropdown-item" href="{{ site.selfstore_url }}" title="到 SelfStore 购买电子书" target="_blank">SelfStore&nbsp;&nbsp;<i class="icon-alipay"></i></a>
+            <a class="dropdown-item" href="{{ site.ituring_url }}" title="到图灵社区购买电子书" target="_blank">图灵社区&nbsp;&nbsp;<i class="icon-alipay"></i></a>
+            <a class="dropdown-item" href="{{ site.leanpub_url }}" title="到 Leanpub 购买电子书" target="_blank">Leanpub&nbsp;&nbsp;<i class="icon-paypal"></i></a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/blog/2014/12/education/" title="申请教育优惠">教育优惠&nbsp;&nbsp;<i class="icon-graduation-cap"></i></a>
+        </div>
+    </div>
+    <div class="sample-downloader">
+        <a class="btn btn-lg btn-secondary" href="{{ site.selfstore_url }}/samples" title="样章试读"><i class="icon-file-pdf"></i>样章试读</a>
+    </div>
+</div>
+
+{% if include.wrapper %}
+</section>
+{% endif %}

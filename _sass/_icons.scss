@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?27823686');
+  src: url('../fonts/fontello.eot?27823686#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?27823686') format('woff2'),
+       url('../fonts/fontello.woff?27823686') format('woff'),
+       url('../fonts/fontello.ttf?27823686') format('truetype'),
+       url('../fonts/fontello.svg?27823686#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github-circled:before { content: '\e800'; }
+.icon-twitter:before { content: '\e801'; }
+.icon-weibo:before { content: '\e802'; }
+.icon-alipay:before { content: '\e803'; }
+.icon-paypal:before { content: '\e804'; }
+.icon-mail:before { content: '\e805'; }
+.icon-basket:before { content: '\e806'; }
+.icon-book:before { content: '\e807'; }
+.icon-file-pdf:before { content: '\e808'; }
+.icon-rss:before { content: '\e809'; }
+.icon-graduation-cap:before { content: '\e80a'; }

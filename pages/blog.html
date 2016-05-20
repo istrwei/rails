@@ -1,0 +1,19 @@
+---
+layout: page
+title: 博客
+blog_page: true
+body_class: blog-page
+permalink: /blog/
+---
+
+<ul class="post-list">
+{% for post in site.posts %}
+    <li>
+        <span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span>
+        &raquo;
+        <a href="{{ site.baseurl }}/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+
+<p class="text-xs-right"><i class="icon-rss"></i><a href="{{ site.baseurl }}/feed.xml" title="订阅 RSS">订阅 RSS</a></p>

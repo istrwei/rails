@@ -1,0 +1,39 @@
+title: Ruby on Rails 教程
+keywords: Ruby on Rails, Rails, 中文, 教程, 电子书
+description: Ruby on Rails Tutorial 中文版教程，讲解如何使用 Ruby on Rails 框架开发应用，以及如何把应用部署到生成环境。
+baseurl: ''
+url: http://railstutorial-china.org/
+
+twitter: andor_chen
+repo_name: mhartl/sample_app_3rd_edition
+selfstore_url: https://selfstore.io/products/189
+leanpub_url: https://leanpub.com/rails-tutorial-cn
+ituring_url:
+
+permalink: /blog/:year/:month/:title/
+exclude: ['.gitignore', 'rake', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'tmp', 'package.json', 'gulpfile.js', 'node_modules', 'assets/images/railstutorial-book-banner.sketch']
+keep_files: ['.git', '.gitignore']
+
+# Converter settings
+markdown: ACKramdownParser
+kramdown:
+  input: GFM
+  auto_ids: false
+  hard_wrap: false
+  enable_coderay: false
+  parse_block_html: true
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+      blog_page: true
+      body_class: 'single-post-page'
