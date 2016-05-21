@@ -21,12 +21,13 @@ gulp.task('minifyHTML', function(){
              .pipe(gulp.dest(SITE_DIR));
 });
 
+// Run this task manually after change JS files
 gulp.task('minifyJS', function(){
     return gulp.src(['./_js/jquery-2.2.3.min.js', './_js/utils.js', './_js/collapse.js', './_js/dropdown.js'])
                .pipe(changedInPlace({firstPass: true}))
                .pipe(concat('global.js'))
                .pipe(uglify())
-               .pipe(gulp.dest('./_site/assets/js'));
+               .pipe(gulp.dest('./assets/js'));
 });
 
 gulp.task('default', function(){
