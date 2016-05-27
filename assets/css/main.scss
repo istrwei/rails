@@ -142,6 +142,20 @@ img {
     }
 }
 
+.main > .container >.banner {
+    border-bottom: none;
+}
+
+.book-edition {
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.book-subtitle {
+    font-size: 1.5rem;
+}
+
+
 .cover img {
     margin-bottom: 40px;
 }
