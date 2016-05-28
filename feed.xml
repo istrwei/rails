@@ -9,22 +9,22 @@
   >
   <channel>
     <title xml:lang="en">Ruby on Rails 教程</title>
-    <atom:link type="application/atom+xml" href="http://railstutorial-china.org//feed.xml" rel="self"/>
-    <link>http://railstutorial-china.org/</link>
-    <pubDate>Fri, 27 May 2016 19:10:28 +0800</pubDate>
-    <lastBuildDate>Fri, 27 May 2016 19:10:28 +0800</lastBuildDate>
+    <atom:link type="application/atom+xml" href="http://railstutorial-china.org/feed.xml" rel="self"/>
+    <link>http://railstutorial-china.org</link>
+    <pubDate>Sat, 28 May 2016 12:08:30 +0800</pubDate>
+    <lastBuildDate>Sat, 28 May 2016 12:08:30 +0800</lastBuildDate>
     <language>zh-CN</language>
     <generator>Jekyll v3.1.6</generator>
     <description></description>
     
     <item>
       <title>RailsConf 2016 特别优惠</title>
-      <link>http://railstutorial-china.org//blog/2016/04/railsconf-2016-discount/</link>
+      <link>http://railstutorial-china.org/blog/2016/04/railsconf-2016-discount/</link>
       <pubDate>Fri, 29 Apr 2016 00:00:00 +0800</pubDate>
       <dc:creator></dc:creator>
       
       
-      <guid isPermaLink="true">http://railstutorial-china.org//blog/2016/04/railsconf-2016-discount/</guid>
+      <guid isPermaLink="true">http://railstutorial-china.org/blog/2016/04/railsconf-2016-discount/</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://railsconf.com/&quot; title=&quot;RailsConf 2016&quot;&gt;RailsConf 2016&lt;/a&gt; 将于当地时间 5 月 4 日至 6 日在美国堪萨斯城举办，在此次大会召开期间，加上五一劳动节，我所翻译的 Ruby/Rails 相关的几本书，以及我自己写的一本关于 Jekyll 的书，&lt;strong&gt;五折优惠&lt;/strong&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;优惠起始时间&lt;/strong&gt;：2016 年 04 月 29 日 00:00 ~ 05 月 07 日 23:59 UTC+8&lt;br /&gt;
@@ -72,12 +72,12 @@
     
     <item>
       <title>RubyConf China 2015 特别优惠</title>
-      <link>http://railstutorial-china.org//blog/2015/10/rubyconf-china-2015-discount/</link>
+      <link>http://railstutorial-china.org/blog/2015/10/rubyconf-china-2015-discount/</link>
       <pubDate>Tue, 06 Oct 2015 00:00:00 +0800</pubDate>
       <dc:creator></dc:creator>
       
       
-      <guid isPermaLink="true">http://railstutorial-china.org//blog/2015/10/rubyconf-china-2015-discount/</guid>
+      <guid isPermaLink="true">http://railstutorial-china.org/blog/2015/10/rubyconf-china-2015-discount/</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://rubyconfchina.org/&quot; title=&quot;RubyConf China 2015&quot;&gt;RubyConf China 2015&lt;/a&gt; 将于 10 月 10 日至 11 日在深圳举办，在此次大会召开期间，我所翻译的 Ruby/Rails 相关的几本书，以及我自己写的一本关于 Jekyll 的书，&lt;strong&gt;五折优惠&lt;/strong&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;优惠起始时间&lt;/strong&gt;：2015 年 10 月 10 日 00:00 ~ 10 月 11 日 23:59&lt;br /&gt;
@@ -125,12 +125,12 @@
     
     <item>
       <title>教育优惠</title>
-      <link>http://railstutorial-china.org//blog/2014/12/education/</link>
+      <link>http://railstutorial-china.org/blog/2014/12/education/</link>
       <pubDate>Tue, 23 Dec 2014 17:10:00 +0800</pubDate>
       <dc:creator></dc:creator>
       
       
-      <guid isPermaLink="true">http://railstutorial-china.org//blog/2014/12/education/</guid>
+      <guid isPermaLink="true">http://railstutorial-china.org/blog/2014/12/education/</guid>
       <description>&lt;p&gt;为了让更多的学生接触先进的 Web 开发技术，减轻在校生的负担，今天起，《Ruby on Rails 教程》为在校生提供特殊的“教育优惠”：凡在校生购买《Ruby on Rails 教程》，&lt;strong&gt;享七折优惠&lt;/strong&gt;。&lt;/p&gt;
 
 &lt;p&gt;“教育优惠”的实施细节如下：&lt;/p&gt;
@@ -158,12 +158,12 @@
     
     <item>
       <title>第 3 版正式发布</title>
-      <link>http://railstutorial-china.org//blog/2014/11/third-edition/</link>
+      <link>http://railstutorial-china.org/blog/2014/11/third-edition/</link>
       <pubDate>Mon, 17 Nov 2014 20:10:00 +0800</pubDate>
       <dc:creator></dc:creator>
       
       
-      <guid isPermaLink="true">http://railstutorial-china.org//blog/2014/11/third-edition/</guid>
+      <guid isPermaLink="true">http://railstutorial-china.org/blog/2014/11/third-edition/</guid>
       <description>&lt;p&gt;历时一个半月，今天《Ruby on Rails 教程》（原书第 3 版）初译结束了。在接下来的几天，我会校对全书，并做统筹调整。届时会发布 1.0.0 版。&lt;/p&gt;
 
 &lt;p&gt;第 3 版和第 2 版相比，变动的内容很多，最大的变化是由测试“驱动”开发变成测试“辅助”开发。而且在第 2 版的基础上增加了一些内容，详情参阅&lt;a href=&quot;http://railstutorial-china.org/blog/original-third-edition-released.html&quot; title=&quot;之前的文章&quot;&gt;之前的文章&lt;/a&gt;。&lt;/p&gt;
@@ -176,12 +176,12 @@
     
     <item>
       <title>关于 Heroku Cedar-14 的说明</title>
-      <link>http://railstutorial-china.org//blog/2014/11/heroku-cedar-14/</link>
+      <link>http://railstutorial-china.org/blog/2014/11/heroku-cedar-14/</link>
       <pubDate>Wed, 05 Nov 2014 14:10:00 +0800</pubDate>
       <dc:creator></dc:creator>
       
       
-      <guid isPermaLink="true">http://railstutorial-china.org//blog/2014/11/heroku-cedar-14/</guid>
+      <guid isPermaLink="true">http://railstutorial-china.org/blog/2014/11/heroku-cedar-14/</guid>
       <description>&lt;p&gt;Heroku 于近日&lt;a href=&quot;https://blog.heroku.com/archives/2014/11/4/cedar_14_now_generally_available&quot; title=&quot;升级了低层组件&quot;&gt;升级了低层组件&lt;/a&gt;，如果你使用 &lt;a href=&quot;http://c9.io/&quot; title=&quot;Cloud9&quot;&gt;Cloud9&lt;/a&gt; 可能会受到影响。当然，如果你在自己的设备中开发也可能有影响。如果部署到 Heroku 时遇到以下错误，请按照本文的方法升级 Ruby 到 2.1.4 版。&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;local/Cloud9 =&amp;gt; Your Ruby version is 2.1.1, but your Gemfile specified 2.1.4
@@ -230,12 +230,12 @@ $ rbenv install 2.1.4
     
     <item>
       <title>原书第三版简体中文版接受预定</title>
-      <link>http://railstutorial-china.org//blog/2014/10/third-edition-preorder/</link>
+      <link>http://railstutorial-china.org/blog/2014/10/third-edition-preorder/</link>
       <pubDate>Fri, 24 Oct 2014 18:00:00 +0800</pubDate>
       <dc:creator></dc:creator>
       
       
-      <guid isPermaLink="true">http://railstutorial-china.org//blog/2014/10/third-edition-preorder/</guid>
+      <guid isPermaLink="true">http://railstutorial-china.org/blog/2014/10/third-edition-preorder/</guid>
       <description>&lt;p&gt;在这个程序员的节日里，很高兴的通知您，《Ruby on Rails 教程》（原书第 3 版）简体中文版开始接受预定。在全书译完之前您可以通过含有“9 折”优惠码的链接购买本书：&lt;a href=&quot;https://selfstore.io/products/189?coupon=PREORDER&quot; title=&quot;https://selfstore.io/products/189?coupon=PREORDER&quot;&gt;https://selfstore.io/products/189?coupon=PREORDER&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;目前，前 6 章已经翻译完，后续章节按章发布——译完一章，发布一章。现在购买，后续更新都会通过邮件通知您。&lt;/p&gt;
@@ -250,12 +250,12 @@ $ rbenv install 2.1.4
     
     <item>
       <title>英文原书第三版正式发布</title>
-      <link>http://railstutorial-china.org//blog/2014/10/original-third-edition-released/</link>
+      <link>http://railstutorial-china.org/blog/2014/10/original-third-edition-released/</link>
       <pubDate>Thu, 16 Oct 2014 16:40:00 +0800</pubDate>
       <dc:creator></dc:creator>
       
       
-      <guid isPermaLink="true">http://railstutorial-china.org//blog/2014/10/original-third-edition-released/</guid>
+      <guid isPermaLink="true">http://railstutorial-china.org/blog/2014/10/original-third-edition-released/</guid>
       <description>&lt;p&gt;《Ruby on Rails Tutorial》（第三版）英文原书正式发布。简体中文版正在紧急翻译中。最新消息，请关注这个博客。&lt;/p&gt;
 
 &lt;p&gt;第三版和之前的版本有以下变化：&lt;/p&gt;
