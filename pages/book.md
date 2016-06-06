@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 在线阅读
-blog_page: true
 body_class: book-page
 permalink: /book/
 ---
