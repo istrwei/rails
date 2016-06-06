@@ -1,7 +1,5 @@
 require 'yaml'
 
-PWD = File.expand_path('../', __FILE__)
-
 desc 'Deploy to master and source branch'
 task :deploy do
   system "git push origin source"
