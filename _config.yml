@@ -5,7 +5,7 @@ baseurl: ''
 url: 'http://railstutorial-china.org'
 
 twitter: andor_chen
-repo_name: mhartl/sample_app_3rd_edition
+repo_name: railstutorial/sample_app_4th_ed
 selfstore_url: https://selfstore.io/products/189
 leanpub_url: https://leanpub.com/rails-tutorial-cn
 ituring_url:
