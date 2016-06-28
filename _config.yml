@@ -9,6 +9,7 @@ repo_name: railstutorial/sample_app_4th_ed
 selfstore_url: https://selfstore.io/products/189
 leanpub_url: https://leanpub.com/rails-tutorial-cn
 ituring_url:
+coupon:
 
 permalink: /blog/:year/:month/:title/
 exclude: ['.gitignore', 'rake', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'tmp', 'package.json', 'gulpfile.js', 'node_modules', 'assets/images/railstutorial-book-banner.sketch']
