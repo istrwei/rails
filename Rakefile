@@ -15,7 +15,7 @@ end
 
 desc "Launch preview environment"
 task :preview do
-  system "bundle exec jekyll s --incremental --baseurl='/railstutorial-china' --host='0.0.0.0'"
+  system "bundle exec jekyll s --baseurl='/railstutorial-china' --host='0.0.0.0'"
 end
 
 task :s => :preview
