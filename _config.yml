@@ -1,6 +1,6 @@
 title: Ruby on Rails 教程
 keywords: Ruby on Rails, Rails, 中文, 教程, 电子书
-description: Ruby on Rails Tutorial 中文版教程，讲解如何使用 Ruby on Rails 框架开发应用，以及如何把应用部署到生成环境。
+description: Ruby on Rails 中文教程，讲解如何使用 Rails 框架开发应用，以及如何把应用部署到生产环境。
 baseurl: ''
 url: 'http://railstutorial-china.org'
 
