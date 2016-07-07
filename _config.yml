@@ -8,8 +8,8 @@ twitter: andor_chen
 repo_name: railstutorial/sample_app_4th_ed
 selfstore_url: https://selfstore.io/products/189
 leanpub_url: https://leanpub.com/rails-tutorial-cn
-ituring_url:
-coupon: 4thLaunchWeek
+ituring_url: http://www.ituring.com.cn/book/1875
+coupon:
 
 permalink: /blog/:year/:month/:title/
 exclude: ['.gitignore', 'rake', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'tmp', 'package.json', 'gulpfile.js', 'node_modules', 'assets/images/railstutorial-book-banner.sketch']
