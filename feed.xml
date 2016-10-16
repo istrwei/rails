@@ -11,8 +11,8 @@
     <title xml:lang="en">Ruby on Rails 教程</title>
     <atom:link type="application/atom+xml" href="http://railstutorial-china.org/feed.xml" rel="self"/>
     <link>http://railstutorial-china.org</link>
-    <pubDate>Sat, 17 Sep 2016 15:38:05 +0800</pubDate>
-    <lastBuildDate>Sat, 17 Sep 2016 15:38:05 +0800</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 19:28:09 +0800</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 19:28:09 +0800</lastBuildDate>
     <language>zh-CN</language>
     <generator>Jekyll v3.2.1</generator>
     <description></description>
@@ -39,7 +39,7 @@
 &lt;p&gt;第 4 版的电子书从今天开始销售，上线首周&lt;strong&gt;八折&lt;/strong&gt;优惠，请点击下述两个链接购买：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://selfstore.io/products/189?coupon=4thLaunchWeek&quot; title=&quot;https://selfstore.io/products/189?coupon=4thLaunchWeek&quot;&gt;https://selfstore.io/products/189?coupon=4thLaunchWeek&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&amp;lt;?coupon=4thLaunchWeek&amp;gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://leanpub.com/rails-tutorial-cn/c/4thLaunchWeek&quot; title=&quot;https://leanpub.com/rails-tutorial-cn/c/4thLaunchWeek&quot;&gt;https://leanpub.com/rails-tutorial-cn/c/4thLaunchWeek&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
