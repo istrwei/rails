@@ -51,6 +51,14 @@ permalink: /guides/
 
         <div class="col-xs-12 col-md-8 col-md-offset-2">
             <p class="text-xs-center"><img src="{{ site.baseurl }}/assets/images/weixin.jpg" alt="微信二维码" title="加安道的微信" /></p>
+
+            <p class="text-xs-center" id="crowdfund-progress">众筹进度：{{ site.crowdfund_amount | times: 100 | divided_by: 10000.0 | round: 2 }}%</p>
+            <progress class="progress" value="{{ site.crowdfund_amount }}" max="10000" aria-describedby="crowdfund-progress">
+                <div class="progress">
+                    <span class="progress-bar" style="width: {{ site.crowdfund_amount | times: 100 | divided_by: 10000.0 | round: 2 }}%;"></span>
+                </div>
+            </progress>
+
             <ul>
                 <li>众筹目标金额为壹万元人民币；</li>
                 <li>仅当众筹金额达到目标额的 70% 时，才开放免费在线阅读；</li>

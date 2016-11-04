@@ -12,6 +12,8 @@ ituring_url: http://www.ituring.com.cn/book/1875
 sample_url: http://uri.ac/1iVCp
 coupon:
 
+crowdfund_amount: 3210
+
 permalink: /blog/:year/:month/:title/
 exclude: ['.gitignore', 'rake', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'tmp', 'package.json', 'gulpfile.js', 'node_modules', 'assets/images/railstutorial-book-banner.sketch']
 keep_files: ['.git', '.gitignore', '.nojekyll']
