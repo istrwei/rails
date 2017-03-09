@@ -4,6 +4,14 @@ title: "教育优惠"
 date: 2014-12-23 17:10
 ---
 
+<div class="alert alert-info">
+
+**2017 年 3 月 9 日更新**
+
+以“[教育优惠]({{ site.baseurl }}/education/)”页面的信息为准。
+
+</div>
+
 为了让更多的学生接触先进的 Web 开发技术，减轻在校生的负担，今天起，《Ruby on Rails 教程》为在校生提供特殊的“教育优惠”：凡在校生购买《Ruby on Rails 教程》，**享七折优惠**。
 
 “教育优惠”的实施细节如下：
