@@ -11,8 +11,8 @@
     <title xml:lang="en">Ruby on Rails 教程</title>
     <atom:link type="application/atom+xml" href="http://railstutorial-china.org/feed.xml" rel="self"/>
     <link>http://railstutorial-china.org</link>
-    <pubDate>Tue, 07 Feb 2017 20:53:37 +0800</pubDate>
-    <lastBuildDate>Tue, 07 Feb 2017 20:53:37 +0800</lastBuildDate>
+    <pubDate>Thu, 09 Mar 2017 17:52:52 +0800</pubDate>
+    <lastBuildDate>Thu, 09 Mar 2017 17:52:52 +0800</lastBuildDate>
     <language>zh-CN</language>
     <generator>Jekyll v3.4.0</generator>
     <description></description>
@@ -163,7 +163,15 @@
       
       
       <guid isPermaLink="true">http://railstutorial-china.org/blog/2014/12/education/</guid>
-      <description>&lt;p&gt;为了让更多的学生接触先进的 Web 开发技术，减轻在校生的负担，今天起，《Ruby on Rails 教程》为在校生提供特殊的“教育优惠”：凡在校生购买《Ruby on Rails 教程》，&lt;strong&gt;享七折优惠&lt;/strong&gt;。&lt;/p&gt;
+      <description>&lt;div class=&quot;alert alert-info&quot;&gt;
+
+  &lt;p&gt;&lt;strong&gt;2017 年 3 月 9 日更新&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;以“&lt;a href=&quot;/education/&quot; title=&quot;教育优惠&quot;&gt;教育优惠&lt;/a&gt;”页面的信息为准。&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;为了让更多的学生接触先进的 Web 开发技术，减轻在校生的负担，今天起，《Ruby on Rails 教程》为在校生提供特殊的“教育优惠”：凡在校生购买《Ruby on Rails 教程》，&lt;strong&gt;享七折优惠&lt;/strong&gt;。&lt;/p&gt;
 
 &lt;p&gt;“教育优惠”的实施细节如下：&lt;/p&gt;
 
