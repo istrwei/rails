@@ -3,3 +3,5 @@
 {% if page.url == '/' %}{% assign is_home = true %}{% endif %}
 
 {% if page.blog_page %}{% assign is_blog = true %}{% endif %}
+
+{% if page.body_class == 'contact-page' %}{% assign is_contact_page = true %}{% endif %}
